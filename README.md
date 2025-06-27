@@ -75,7 +75,7 @@ Below is a comparison of segmentation outputs for a sample image:
 ## 🔗 Project Link
 
 📁 View the complete notebook on **Kaggle**:  
-👉 [Runway Platform Detection – Kaggle Notebook](https://www.kaggle.com/code/kanhaiiyaumbare/runway-platfrom-detection-compressed/edit)
+👉 [Runway Platform Detection – Kaggle Notebook](https://www.kaggle.com/code/sohamumbare/runway-platfrom-detection-compressed)
 
 ---
 
