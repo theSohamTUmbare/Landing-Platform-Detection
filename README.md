@@ -8,6 +8,8 @@ This project explores **semantic segmentation of runway areas** from aerial imag
 
 I’ve added a super–lightweight control module that uses the predicted runway segmentation mask to compute roll and yaw commands in under **4 ms**. Combined with the segmentation inference time (~6.5 ms), the full perception‑to‑control pipeline now completes in just **10.6 ms**. check out in [my kaggle notebook](https://www.kaggle.com/code/sohamumbare/runway-platfrom-detection-compressed)
 
+![](results/results.png)
+
 
 ## 📦 Dataset
 
