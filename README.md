@@ -1,8 +1,13 @@
-# 🛬 Runway Segmentation for Autonomous Rotorcraft Landing  
+# 🛬 [Runway Segmentation for Autonomous Rotorcraft Landing](https://www.kaggle.com/code/sohamumbare/runway-platfrom-detection-compressed)  
 
 This project explores **semantic segmentation of runway areas** from aerial images to enable **automated landing of rotorcraft on landing platforms**. We experiment with a range of models—including both well-established architectures and novel attention-based designs—to evaluate their performance in real-world deployment conditions.
 
 ---
+
+## 🛠️ Update!!!
+
+I’ve added a super–lightweight control module that uses the predicted runway segmentation mask to compute roll and yaw commands in under **4 ms**. Combined with the segmentation inference time (~6.5 ms), the full perception‑to‑control pipeline now completes in just **10.6 ms**.
+
 
 ## 📦 Dataset
 
