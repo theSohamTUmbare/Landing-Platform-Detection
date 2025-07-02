@@ -1,6 +1,6 @@
 # 🛬 Runway Segmentation for Autonomous Rotorcraft Landing  
 
-This project explores **semantic segmentation of runway areas** from aerial images to enable **automated landing of rotorcraft on moving platforms**. We experiment with a range of models—including both well-established architectures and novel attention-based designs—to evaluate their performance in real-world deployment conditions.
+This project explores **semantic segmentation of runway areas** from aerial images to enable **automated landing of rotorcraft on landing platforms**. We experiment with a range of models—including both well-established architectures and novel attention-based designs—to evaluate their performance in real-world deployment conditions.
 
 ---
 
@@ -46,7 +46,6 @@ These evaluations were conducted under identical training conditions:
 - Optimizer: Adam
 - Loss: Binary Cross-Entropy with Logits (`nn.BCEWithLogitsLoss`)
 - Random seed: 33 
----
 
 ## 🧪 Key Insights
 
@@ -77,14 +76,13 @@ Below is a comparison of segmentation outputs for a sample image:
 📁 View the complete notebook on **Kaggle**:  
 👉 [Runway Platform Detection – Kaggle Notebook](https://www.kaggle.com/code/sohamumbare/runway-platfrom-detection-compressed)
 
----
 
 ## 🚀 Future Work
 
 - Incorporating **temporal consistency** for videos using ConvLSTM/Transformer-based approaches.
 - Deployment and benchmarking on **real drone edge devices** (e.g., NVIDIA Jetson Nano, Raspberry Pi).
 
----
+
 
 ## 📬 Contact
 
@@ -94,7 +92,7 @@ IIIT Raichur
 
 ---
 
-⭐ _If you find this work interesting, consider giving it a star on Kaggle or GitHub!_
+⭐ _If you find this work interesting, consider giving it a star on Kaggle & GitHub!_
 
 ---
 🧑‍💻 Happy Experimenting! 🔬
